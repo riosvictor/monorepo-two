@@ -11,5 +11,7 @@ module.exports = {
       statements: 100
     }
   },
-  testPathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/']
+  testPathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/'],
+  testEnvironment: "jsdom",
+  verbose: true,
 };
